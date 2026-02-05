@@ -31,3 +31,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// Mise à jour automatique de l'année
+document.getElementById('current-year').textContent = new Date().getFullYear();
